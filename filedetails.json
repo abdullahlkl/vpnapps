@@ -3,8 +3,10 @@
     {"id":0,"file":"client
 dev tun
 proto udp
-sndbuf 0
-rcvbuf 0
+sndbuf 393216
+rcvbuf 393216
+push "sndbuf 393216"
+push "rcvbuf 393216"
 remote 51.81.34.232 1194
 resolv-retry infinite
 nobind
